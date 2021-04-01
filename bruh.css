@@ -8,7 +8,7 @@ height: 100%;
     bottom: 0;
     position: absolute;
   background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-  background-size: 1800% 1800%;
+  background-size: 9999999999% 9999999999%;
   
   -webkit-animation: rainbow 18s ease infinite;
   -z-animation: rainbow 18s ease infinite;
@@ -26,6 +26,10 @@ height: 100%;
         -ms-animation: fadein 2s; /* Internet Explorer */
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 @keyframes fadein {
